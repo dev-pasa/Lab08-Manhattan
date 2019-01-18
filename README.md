@@ -1,38 +1,22 @@
 # Lab08-Manhattan
 
-
-tell them what it is (with context, provide a summary)
-show them what it looks like in action (Visuals)
-show them how they use it (Step by step directions, “Happy Path” walk through)
-tell them any other relevant details 
-
-
-
-#Setup
-Add the data.json file to your solution root folder
-Explore the NuGet packages and install NewtonSoftJson
-Do some self research and find out how to read in JSON file (hint: JsonConvert.DeserializedOject is part of it)
-You will need to break up each section of the JSON file up into different classes, use your resources - ask the TA’s if your stuck. (Maybe find a converter of some sort??)
+#Summary and Step by step directions,
+This is my attempt to learn Linq on a JSON file. The data is read useing streamreader function. The data is pushed into a empty string variable. 
+I create classes of the JSON data to create to create easy to manipulate objects.
+Then I use the Newton's JSON editor JsonConvert.DeserializeObject function to create feature objects. 
+I then run LINQ queries to pull desired results. 
 
 
-Output all of the neighborhoods in this data list
-Filter out all the neighborhoods that do not have any names
-Remove the Duplicates
-Rewrite the queries from above, and consolidate all into one single query.
-Rewrite at least one of these questions only using the opposing method (example: Use LINQ instead of a Lambda and vice versa.)
+#Visuals
+markup: ![JSON data](/Assets/jsoneditor.JPG)
+markup: ![all data](/Assets/allData.JPG)
+markup: ![no null](/Assets/noNulls.JPG)
+markup: ![no duplicate](/Assets/noDuplicates.JPG)
+markup: ![single query](/Assets/singleQuery.JPG)
+markup: ![lambda call](/Assets/lambdaQuery.JPG)
 
-
-class
-[JsonProperty("type")] & properties
-
-JsonConvert.DeserializeObject
-
+#Additional resources
 https://jsoneditoronline.org/
-
-Feature
-Manhattan
-Properties
-
-
 https://stackoverflow.com/questions/11126242/using-jsonconvert-deserializeobject-to-deserialize-json-to-a-c-sharp-poco-class
+https://stackoverflow.com/questions/50963363/parsing-json-with-linq-into-list-of-objects
 

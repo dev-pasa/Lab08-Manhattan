@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace Lab08_Manhattan.Classes
 {
-    public class Features
+    public class Feature
     {
         [JsonProperty("properties")]
         public Properties Properties { get; set; }

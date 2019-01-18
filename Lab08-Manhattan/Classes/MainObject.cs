@@ -11,6 +11,6 @@ namespace Lab08_Manhattan.Classes
         public string Type { get; set; }
 
         [JsonProperty("features")]
-        public string Features { get; set; }
+        public List<Feature> Features { get; set; }
     }
 }
