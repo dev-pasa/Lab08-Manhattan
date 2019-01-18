@@ -16,6 +16,10 @@ markup: ![single query](/Assets/singleQuery.JPG)
 markup: ![lambda call](/Assets/lambdaQuery.JPG)
 
 #Additional resources
+//JSON as classes
+https://social.msdn.microsoft.com/Forums/en-US/90d590c2-2ff6-4440-8922-bf1ea94a2d92/missing-the-quotpaste-json-as-classesquot-option-but-have-quotpaste-xml-as-classesquot?forum=visualstudiogeneral
+
+http://json2csharp.com/
 https://jsoneditoronline.org/
 https://stackoverflow.com/questions/11126242/using-jsonconvert-deserializeobject-to-deserialize-json-to-a-c-sharp-poco-class
 https://stackoverflow.com/questions/50963363/parsing-json-with-linq-into-list-of-objects
