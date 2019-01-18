@@ -62,8 +62,8 @@ namespace Lab08_Manhattan
 
             Console.WriteLine("All the null neighborhoods are out from this result");
             //remove all the nulls from the data
-            var noNullQuery = (from hoods in lambdaNeighborhood
-                                 orderby hoods
+            var noNullQuery = (from hoods in allNeighborhood
+                               orderby hoods
                                  where hoods != ""
                                  select hoods);
 
@@ -75,8 +75,8 @@ namespace Lab08_Manhattan
 
             Console.WriteLine("All the duplicates are out from this result");
             //output out all the distinct neighborhoods 
-            var distinctNeighborhoods = (from allhoods in lambdaNeighborhood
-                                 orderby allhoods
+            var distinctNeighborhoods = (from allhoods in noNullQuery
+                                         orderby allhoods
                                 select allhoods).Distinct();
 
             foreach( var distinctVals in distinctNeighborhoods)
