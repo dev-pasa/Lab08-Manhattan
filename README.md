@@ -7,7 +7,7 @@
 * I then run LINQ queries to pull desired results. 
 
 
-#Visuals
+## Visuals
 markup: ![JSON data](/Assets/jsoneditor.JPG)
 markup: ![all data](/Assets/allData.JPG)
 markup: ![no null](/Assets/noNulls.JPG)
@@ -15,7 +15,7 @@ markup: ![no duplicate](/Assets/noDuplicates.JPG)
 markup: ![single query](/Assets/singleQuery.JPG)
 markup: ![lambda call](/Assets/lambdaQuery.JPG)
 
-#Additional resources
+## Additional resources
 * https://social.msdn.microsoft.com/Forums/en-US/90d590c2-2ff6-4440-8922-bf1ea94a2d92/missing-the-quotpaste-json-as-classesquot-option-but-have-quotpaste-xml-as-classesquot?forum=visualstudiogeneral
 
 * http://json2csharp.com/
